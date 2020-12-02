@@ -162,6 +162,13 @@ While working on a branch, you can always switch between working on the master, 
 
 When done with a branch, delete it: `git branch -d my_branch`. Delete it from GitHub too, if you pushed it: `git push origin --delete my_branch`.
 
+## Pull requests
+If you have forked a repo, and want to contribute back to the original project, branching is also part of the workflow:
+
+- Create, checkout, and modify a branch of your forked project as above.
+- Instead of merging, you need to request for the owner of the original repo to merge your changes. This is done by [creating a pull request on GitHub](https://guides.github.com/activities/forking/#making-a-pull-request).
+
+
 ## Some other things
 
 `git status`: You’ve made some changes to a project, but you’re not sure what. Type git status to see a list of files that have been changed, plus new files that haven’t been formally added.
