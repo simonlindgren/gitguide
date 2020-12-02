@@ -130,11 +130,10 @@ To be able to push the Git repository to GitHub, a home for it must be created a
 Then back in Terminal:
 
 ```
-$ git remote add origin git@github.com:username/reponame.git
-$ git push -u origin master
+$ git clone git@github.com:username/reponame.git  <-- use this ssh link, not https when cloning
 ```
 
-From then on, simply git push will do it.
+Now you can use `git push` to push your commits to GitHub.
 
 ## Forking
 
