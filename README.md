@@ -168,7 +168,7 @@ When done with a branch, delete it: `git branch -d my_branch`. Delete it from Gi
 If you have forked a repo, and want to contribute back to the original project, branching is also part of the workflow:
 
 - Create, checkout, and modify a branch of your forked project as above.
-- Instead of merging, you need to request for the owner of the original repo to merge your changes. This is done by [creating a pull request on GitHub](https://guides.github.com/activities/forking/#making-a-pull-request).
+- Instead of merging, you need to request for the owner of the original repo to merge your changes. This is done by [making a pull request on GitHub](https://guides.github.com/activities/forking/#making-a-pull-request).
 
 
 ## Some other things
