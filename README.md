@@ -2,11 +2,11 @@
 
 Basics
 
-    [Introduction and setup](#introduction-and-setup)
+> [Introduction and setup](#introduction-and-setup)
 
-    [Initialising a repository](#initialising-a-repository)
+> [Initialising a repository](#initialising-a-repository)
 
-    [Committing](#comitting)
+> [Committing](#comitting)
 
 [Pushing](#pushing)
 
