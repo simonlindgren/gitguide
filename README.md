@@ -1,6 +1,11 @@
 # gitguide
 
 [Introduction and setup](#introduction-and-setup)
+[Initialising a repository](#initialising-a-repository)
+[Committing](#comitting)
+[Pushing](#pushing)
+[Forking](#forking)
+[Branching](#branching)
 
 ## Introduction and setup
 Git is a version control system. It is installed and maintained on your local system. It manages a record of versions of ongoing projects (coding, writing, etc.).
