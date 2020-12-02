@@ -80,7 +80,6 @@ When you have modified your project, and want to tag the changes in a file as re
 $ git add file.md   <-- adds single file
 $ git add file.md file2.md   <-- several files
 $ git add .   <-- add all files
-
 ```
 
 You can check which files have been staged by `git status`.
@@ -105,18 +104,17 @@ $ git commit -a -m "Fix such and such"
 
 ## Pushing
 
-To be able to push the Git repository to GitHub, a home for it must be created at GitHub.
+To be able to push the Git repository to GitHub, a home for it must be created at GitHub. 
 
-    > Go to GitHub and log in.
-    > Click the new repository option in the top-right menu.
-    > Give it a name and click to create.
+- Go to GitHub and log in
+- Click the new repository option in the top-right menu
+- Give it a name and click to create
 
 Then back in Terminal:
 
 ```
 $ git remote add origin git@github.com:username/reponame.git
 $ git push -u origin master
-
 ```
 
 From then on, simply git push will do it.
