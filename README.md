@@ -12,6 +12,8 @@
 
 [Branching](#branching)
 
+[Pull requests](#pull-requests)
+
 ## Introduction and setup
 Git is a version control system. It is installed and maintained on your local system. It manages a record of versions of ongoing projects (coding, writing, etc.).
 
