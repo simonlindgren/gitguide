@@ -1,10 +1,15 @@
 # gitguide
 
 [Introduction and setup](#introduction-and-setup)
+
 [Initialising a repository](#initialising-a-repository)
+
 [Committing](#comitting)
+
 [Pushing](#pushing)
+
 [Forking](#forking)
+
 [Branching](#branching)
 
 ## Introduction and setup
