@@ -48,12 +48,11 @@ $ pbcopy < ~/.ssh/id_rsa.pub
 
 If you don't have a GitHub account, go create one. Otherwise, log in to your existing account and do this:
 
-    >Paste your ssh public key into your github account settings.
-    >Go to your github account Settings
-    >Click “SSH and GPG Keys” on the left.
-    >Click “New SSH Key” on the right.
-    >Add a title (like “My laptop”) and paste the public key into the big text box.
-    >Add the key.
+- Go to your github account *Settings*
+- Click “SSH and GPG Keys” on the left
+- Click “New SSH Key” on the right
+- Add a title (like “My laptop”) and paste the public key into the big text box
+- Add the key
 
 Back in Terminal, test the key:
 
@@ -118,6 +117,38 @@ $ git push -u origin master
 ```
 
 From then on, simply git push will do it.
+
+## Forking
+
+If you want to modify and/or contribute to someone else's project on GitHub, you can fork their repository.
+
+- On the GitHub website, click "Fork" in the original repo. This will create a forked version in your own account.
+- In your forked version of the repo, click the "Clone or download" button, and copy the git address (something like: `git@github.com:yourusername/therepo.git`).
+- In Terminal (and in your desired project folder) enter git clone followed by your copied git address. This copies down both the contents and the commit history (i.e. the hidden git subdirectory).
+
+If you just want to use this fork for adding your own modifications, and keeping them in this fork, you can continue from here with git commit and git push as described above.
+
+If you want to take the project in a completely different direction, or for some other reason disconnect it from the orginal one and not receive updates from it, skip the whole forking thing and just [import a copy](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/importing-a-repository-with-github-importer) of the repo.
+
+## Branching
+
+Branches are very useful for working on your own projects to try to fix or modify stuff without disturbing the master branch. If things work out, it can all be merged back into the master, and if not, the branch can be trashed.
+
+- First, make sure that you are updated with `master`: 
+    - `git branch`
+    - `git checkout master`
+    - `git pull origin master`
+
+- Create a branch and name it: `git branch my_branch`.
+- Checkout the branch: `git checkout my_branch`.
+    - Double check: `git branch`
+- Make your changes, then add and commit.
+- To push the branch to GitHub: `git push origin my_branch`.
+- If you are happy about the changes in the branch, merge them into the master: `git checkout master` and then `git merge my_branch`.
+
+While working on a branch, you can always switch between working on the master, and on the branch by: `git checkout master` or git `checkout my_branch`.
+
+When done with a branch, delete it: `git branch -d my_branch`. Delete it from GitHub too, if you pushed it: `git push origin --delete my_branch`.
 
 ## Some other things
 
