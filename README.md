@@ -130,7 +130,9 @@ To be able to push the Git repository to GitHub, a home for it must be created a
 Then back in Terminal:
 
 ```
-$ git clone git@github.com:username/reponame.git  <-- use this ssh link, not https when cloning
+$ git remote add origin git@github.com:username/reponame.git  <-- use this ssh link, not https when cloning
+git branch -M main
+git push -u origin main
 ```
 
 Now you can use `git push` to push your commits to GitHub.
@@ -151,10 +153,10 @@ If you want to take the project in a completely different direction, or for some
 
 Branches are very useful for working on your own projects to try to fix or modify stuff without disturbing the master branch. If things work out, it can all be merged back into the master, and if not, the branch can be trashed.
 
-- First, make sure that you are updated with `master`: 
+- First, make sure that you are updated with `main`: 
     - `git branch`
-    - `git checkout master`
-    - `git pull origin master`
+    - `git checkout main`
+    - `git pull origin main`
 
 - Create a branch and name it: `git branch my_branch`.
 - Checkout the branch: `git checkout my_branch`.
