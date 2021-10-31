@@ -60,9 +60,16 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 Copy the contents of your public key into the clipboard:
 
+On mac, use pbcopy:
 ```
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
+
+Another option is to `cat` the contents and copy them manually.
+```
+$ cat ~/.ssh/id_rsa.pub
+```
+
 
 If you don't have a GitHub account, go create one. Otherwise, log in to your existing account and do this:
 
