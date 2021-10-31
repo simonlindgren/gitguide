@@ -110,6 +110,10 @@ You can check which files have been staged by `git status`.
 
 Note that git add is used to add completely new files as well as to “add” modifications to files that already exist in the repository.
 
+### Initialising a repository on github.com
+
+If you have created a repository through the web interface at github.com, and later on want to work on it via command line, the process is the same as descibed under [Pushing](#pushing).
+
 ## Committing
 
 Enter `git commit` to add the modifications to the repository. That will open up your editor of choice for you to enter a commit message (a note on what was changed). It is easier to do this without the editor, like this:
