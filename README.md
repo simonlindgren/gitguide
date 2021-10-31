@@ -112,7 +112,11 @@ Note that git add is used to add completely new files as well as to “add” mo
 
 ### Initialising a repository on github.com
 
-If you have created a repository through the web interface at github.com, and later on want to work on it via command line, the process is the same as descibed under [Pushing](#pushing).
+If you have created a repository through the web interface at github.com, and later on want to work on it via command line, just clone it to your machine using the ssh link to the repo:
+
+```
+git clone git@github.com:username/reponame.git
+```
 
 ## Committing
 
