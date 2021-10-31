@@ -93,7 +93,7 @@ Hi username! You've successfully authenticated, but Github does not provide shel
 
 ## Initialising a repository
 
-When working on a project (writing, coding etc.), create a directory on your computer for that project. In that directory, enter git init.
+When working on a project (writing, coding etc.), create a directory on your computer for that project. In that directory, enter `git init`.
 
 This will create the hidden subdirectory .git which contains all information required for version control of your project. Your project is now a git project.
 Add
